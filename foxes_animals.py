@@ -6,7 +6,7 @@ def load_data(filepath):
         return json.load(f)
 
 
-def print_animals():
+def print_animals_attributes():
     """Read animal name, diet, location and type from json-file and print them if it exists"""
     animals_data = load_data("animals_data.json")
 
@@ -20,7 +20,7 @@ def print_animals():
 
 
 def main():
-    print_animals()
+    print_animals_attributes()
 
 
 if __name__ == "__main__":
